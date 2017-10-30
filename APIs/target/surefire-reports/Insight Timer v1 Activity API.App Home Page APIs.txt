@@ -1,0 +1,28 @@
+-----------------------------------------------------------------------
+Insight Timer v1 Activity API.App Home Page APIs
+-----------------------------------------------------------------------
+Running Get locations for Live Map 1/8 ✓
+  GET on https://api.insighttimer.com/api/v1/activities/locations
+
+Running Get friends activities on Home 2/8 ✓
+  GET on https://api.insighttimer.com/api/v1/activities/friends/views/home?limit=5
+
+Running Get nearby activities on Home 3/8 ✓
+  GET on https://api.insighttimer.com/api/v1/activities/nearby/views/home
+
+Running Get my groups on Home 4/8 ✓
+  GET on https://api.insighttimer.com/api/v1/users/me/groups/views/home
+
+Running Get community activities 5/8 ✓
+  GET on https://api.insighttimer.com/api/v1/activities?offset=0&limit=20
+
+Running Get activities by group id on Home 6/8 ✓
+  GET on https://api.insighttimer.com/api/v1/activities/groups/GroupId/views/home
+
+Running Get current meditators 7/8 ✓
+  GET on https://api.insighttimer.com/api/v1/activities/meditators
+
+Running Get Meditations Today 8/8 ✓
+  GET on https://api.insighttimer.com/api/v1/activities/meditated_today/GMT+10
+
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.740

@@ -1,0 +1,711 @@
+{
+  "ui_elems" : [ {
+    "type" : "UI_ELEM_SEARCH_FIELD",
+    "content" : {
+      "title" : "5,519 free meditations",
+      "description" : "Search for benefits, origins or teachers",
+      "content_type" : "NONE"
+    }
+  }, {
+    "type" : "UI_ELEM_PAGE_TITLE",
+    "content" : {
+      "title" : "Explore",
+      "content_type" : "LABEL_WITH_COUNTER",
+      "languages": [
+        {
+          "name": "English",
+          "iso_639_1": "en",
+          "icon": "/en-icon.png"
+        },
+        {
+          "name": "French",
+          "iso_639_1": "fr",
+          "icon": "/fr-icon.png"
+        }
+      ]
+    }
+  }, {
+    "type" : "UI_ELEM_ITEMS_LIST",
+    "content" : {
+      "content_type" : "LABEL_WITH_ROUND_PICTURE",
+      "items" : [ {
+        "title" : "My Library",
+        "uri" : "insight://discoverlibraries/mylibrary?app_title=My%2BLibrary",
+        "picture_url" : "https://static.insighttimer.com/data/pictures/001/391/160/small/14138788_10153688458040248_3081530338795495348_o.jpg"
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_CAROUSEL",
+    "content" : {
+      "title" : "New today",
+      "content_type" : "LIBRARY_ITEM",
+      "library_items" : [ {
+        "id" : "e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7",
+        "type" : "AUDIO",
+        "title" : "Memory Break",
+        "public_url" : "https://insighttimer.com/andrewjohnson/guided-meditations/memory-break",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/540/small/CoffeeBreak.jpg",
+          "width" : 100,
+          "height" : 100
+        },
+        "picture_medium" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/540/medium/CoffeeBreak.jpg",
+          "width" : 320,
+          "height" : 320
+        },
+        "audio_item_info" : {
+          "id" : "e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7",
+          "play" : {
+            "type" : "audio/mpeg",
+            "length" : 112,
+            "path" : "http://staticmp3.insighttimer.com/e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7.mpeg",
+            "path2" : "https://static.insighttimer.com/m1/e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7.mpeg",
+            "path3" : "https://static2.insighttimer.com/m1/e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7.mpeg"
+          },
+          "play_count" : 6487,
+          "level" : "Everyone",
+          "contains" : "Words, Music",
+          "content" : "Guided or teacher led practice (may contain background music)",
+          "spiritual" : "Secular",
+          "release_date" : "2005"
+        },
+        "publisher" : {
+          "id" : "T3s7y4X8G6e5a4F1R3h5A8U1w0k6s7M7G0F7t8L7Z5m3x0y7u8N9C3m0J8k2y2C0m4s5D9U1x2h0P2d0L1z6h8f0B9b9C8T6N0m1",
+          "pref_id" : "a4a1S4H4x7h7c1v5S0S3u2z2n6s7R5u4X8D4L8E8F6G0c5k4P5t5L5A1X7Y3p4h6m1X1N8S3T1c1Z2a8w7x3p7Q2T9R2v2W5u0G9",
+          "name" : "Andrew Johnson",
+          "picture" : {
+            "type" : "image/jpeg",
+            "path" : "https://static.insighttimer.com/publisher_data/pictures/000/000/336/medium/pub502694_112096_0.jpeg",
+            "width" : 320,
+            "height" : 320
+          },
+          "is_publisher" : false,
+          "play_count" : 399995,
+          "cache_version" : 0
+        },
+        "cache_version" : 5
+      }, {
+        "id" : "q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0",
+        "type" : "AUDIO",
+        "title" : "Short Breath Awareness Meditation",
+        "public_url" : "https://insighttimer.com/susanpiver/guided-meditations/short-breath-awareness-meditation",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/9846/small/spb-current-pink.jpeg",
+          "width" : 100,
+          "height" : 100
+        },
+        "picture_medium" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/9846/medium/spb-current-pink.jpeg",
+          "width" : 320,
+          "height" : 320
+        },
+        "audio_item_info" : {
+          "id" : "q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0",
+          "play" : {
+            "type" : "audio/mp3",
+            "length" : 668,
+            "path" : "http://staticmp3.insighttimer.com/q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0.mp3",
+            "path2" : "https://static.insighttimer.com/m1/q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0.mp3",
+            "path3" : "https://static2.insighttimer.com/m1/q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0.mp3"
+          },
+          "play_count" : 2880,
+          "level" : "Everyone",
+          "contains" : "Ending bell (or similar sound)",
+          "content" : "Guided or teacher led practice (may contain background music)",
+          "spiritual" : "Secular"
+        },
+        "publisher" : {
+          "id" : "T1q7r3F4z7V7X6V0n2h3q4p8M4S6R8Y8v0t4Z7s5c0b6M5w6R1a3e5V2L3j4N7q7A3B4w7q7Z3z8z8u3G7Q3m3p7E8K3Y2P7y3H4",
+          "pref_id" : "J8w5P6Y8V8x0Q9p1X1f2H5M7F5r9Q6G2f6y8L8E5z9c7u1L6H3u3k1t4d9d7w6w2V2s8A9R9P4F7e7g5h8q5G7X9D0X3L9X0w7B6",
+          "name" : "Susan Piver",
+          "picture" : {
+            "type" : "image/jpeg",
+            "path" : "https://static.insighttimer.com/publisher_data/pictures/000/001/623/medium/pub66661_69084_0.jpeg",
+            "width" : 320,
+            "height" : 320
+          },
+          "is_publisher" : false,
+          "play_count" : 2864,
+          "cache_version" : 0
+        },
+        "cache_version" : 5
+      }, {
+        "id" : "k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3",
+        "type" : "AUDIO",
+        "title" : "Short Centering Practice: Turbocentering",
+        "public_url" : "https://insighttimer.com/anoukbrack/guided-meditations/centering-turbocentering-30-sec",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/3536/small/Anouk_2016-square.jpg",
+          "width" : 100,
+          "height" : 100
+        },
+        "picture_medium" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/3536/medium/Anouk_2016-square.jpg",
+          "width" : 320,
+          "height" : 320
+        },
+        "audio_item_info" : {
+          "id" : "k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3",
+          "play" : {
+            "type" : "audio/mpeg",
+            "length" : 40,
+            "path" : "http://staticmp3.insighttimer.com/k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3.mpeg",
+            "path2" : "https://static.insighttimer.com/m1/k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3.mpeg",
+            "path3" : "https://static2.insighttimer.com/m1/k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3.mpeg"
+          },
+          "play_count" : 5601
+        },
+        "publisher" : {
+          "id" : "e2q7U2J9H3r7R9a8h8w0C0C0C6r2y4C5v1G6G9u8R3E9L8J5c6z0N4n4L4h1D8h9Y0V0e0q5T7Y6m6g5S9j5A6z7E5d0f3U2G1U5",
+          "pref_id" : "h3K6w7z6n3q5s0Y3h6L1D1b8d4E1Y6m6z3G1v3U5N7f2m5D1X7K4h9H5s6F1s4Z5V9q6v3f8r5u1N1D7j6g7D4U3H8y4x7Y0U4n4",
+          "name" : "Anouk Brack",
+          "picture" : {
+            "type" : "image/jpeg",
+            "path" : "https://static.insighttimer.com/publisher_data/pictures/000/000/020/medium/Anouk.jpg",
+            "width" : 320,
+            "height" : 320
+          },
+          "is_publisher" : false,
+          "play_count" : 8500,
+          "cache_version" : 0
+        },
+        "cache_version" : 5
+      }, {
+        "id" : "e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8",
+        "type" : "AUDIO",
+        "title" : "Nrty Hiran (Dancing Deer)",
+        "public_url" : "https://insighttimer.com/jimrajan/guided-meditations/nrty-hiran-dancing-deer",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/7682/small/Nrty_Hiran_â€œ_7_.jpg",
+          "width" : 100,
+          "height" : 100
+        },
+        "picture_medium" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/7682/medium/Nrty_Hiran_â€œ_7_.jpg",
+          "width" : 320,
+          "height" : 320
+        },
+        "audio_item_info" : {
+          "id" : "e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8",
+          "play" : {
+            "type" : "audio/mp3",
+            "length" : 1546,
+            "path" : "http://staticmp3.insighttimer.com/e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8.mp3",
+            "path2" : "https://static.insighttimer.com/m1/e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8.mp3",
+            "path3" : "https://static2.insighttimer.com/m1/e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8.mp3"
+          },
+          "play_count" : 9130,
+          "level" : "Everyone",
+          "content" : "Music track only (including chanting and mantras)",
+          "spiritual" : "Secular",
+          "release_date" : "2017"
+        },
+        "publisher" : {
+          "id" : "H0T6n1s0H6H2r1m5y3H8S8q2U4C5g0Y8e8M2M3u6A2x0H1X3J6f3D7K8P6V8X4E9g1R3Z1r6m4a7s4z5d2B9M9b1c7h0G9m9a5n9",
+          "pref_id" : "G2v8w8X2F4N9m3U5A4s9c7M5E0h7h8n8v7c5t3E6c5P3c3H1p2V7m1z6c1v2z1X7J8T4f6Z3X3x0K8u4b9E9G3c3d6p4s5E6D4F2",
+          "name" : "Jim Rajan",
+          "picture" : {
+            "type" : "image/jpeg",
+            "path" : "https://static.insighttimer.com/publisher_data/pictures/000/000/936/medium/56.jpg",
+            "width" : 320,
+            "height" : 320
+          },
+          "is_publisher" : false,
+          "play_count" : 29115,
+          "cache_version" : 0
+        },
+        "cache_version" : 5
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_TAG_CLOUD",
+    "content" : {
+      "title" : "Popular Interests",
+      "content_type" : "TAGS",
+      "items" : [ {
+        "title" : "Yoga",
+        "uri" : "UNKNOWN?app_title=Unknown"
+      }, {
+        "title" : "Buddhism",
+        "uri" : "UNKNOWN?app_title=Unknown"
+      }, {
+        "title" : "Christianity",
+        "uri" : "UNKNOWN?app_title=Unknown"
+      }, {
+        "title" : "Trancendental Meditation",
+        "uri" : "UNKNOWN?app_title=Unknown"
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_ITEMS_LIST",
+    "content" : {
+      "content_type" : "LABEL_WITH_COUNTER",
+      "see_all_uri" : "UNKNOWN?app_title=Unknown",
+      "items" : [ {
+        "title" : "Guided Meditations",
+        "uri" : "UNKNOWN?app_title=Unknown",
+        "count" : 5432
+      }, {
+        "title" : "Music",
+        "uri" : "UNKNOWN?app_title=Unknown",
+        "count" : 786
+      }, {
+        "title" : "Talks",
+        "uri" : "UNKNOWN?app_title=Unknown",
+        "count" : 156
+      }, {
+        "title" : "Teachers and Musicians",
+        "uri" : "UNKNOWN?app_title=Unknown",
+        "count" : 1231
+      }, {
+        "title" : "Kids and Teens",
+        "uri" : "UNKNOWN?app_title=Unknown",
+        "count" : 432
+      }, {
+        "title" : "365 Day Playlist",
+        "uri" : "UNKNOWN?app_title=Unknown",
+        "count" : 132
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_DOUBLE_CAROUSEL",
+    "content" : {
+      "title" : "Get help with...",
+      "description" : "Meditation can be useful for sleeping better, reducing stress, and calming a busy mind.",
+      "content_type" : "INTEREST_GROUP",
+      "items" : [ {
+        "title" : "Creativity & Performance",
+        "uri" : "insight://discoverlibraries/interest_groups/136?app_title=Creativity+%26+Performance",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/creativityperformance-medium-v1.jpg"
+      }, {
+        "title" : "Grounded & Happy",
+        "uri" : "insight://discoverlibraries/interest_groups/137?app_title=Grounded+%26+Happy",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/groundedhappy-medium-v1.jpg"
+      }, {
+        "title" : "Kids & Teens",
+        "uri" : "insight://discoverlibraries/interest_groups/140?app_title=Kids+%26+Teens",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/children-medium-v1.jpg"
+      }, {
+        "title" : "Recovery & Healing",
+        "uri" : "insight://discoverlibraries/interest_groups/133?app_title=Recovery+%26+Healing",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/recoveryhealing-medium-v1.jpg"
+      }, {
+        "title" : "Relationships",
+        "uri" : "insight://discoverlibraries/interest_groups/138?app_title=Relationships",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/relationships-medium-v1.jpg"
+      }, {
+        "title" : "Sleep",
+        "uri" : "insight://discoverlibraries/interest_groups/135?app_title=Sleep",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/sleep-medium-v1.jpg"
+      }, {
+        "title" : "Spiritual",
+        "uri" : "insight://discoverlibraries/interest_groups/139?app_title=Spiritual",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/spiritual-medium-v1.jpg"
+      }, {
+        "title" : "Stress & Anxiety",
+        "uri" : "insight://discoverlibraries/interest_groups/134?app_title=Stress+%26+Anxiety",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/stressanxiety-medium-v1.jpg"
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_ITEMS_LIST",
+    "content" : {
+      "title" : "Practices",
+      "description" : "There are hundreds of different meditation practices. Pick a style that suits you.",
+      "content_type" : "PRACTICES",
+      "items" : [ {
+        "title" : "Concentration",
+        "label" : "Focusing on something physical and material, such as your breath or body, to distract the mind.",
+        "uri" : "insight://discoverlibraries/interest_groups/5100006?app_title=Concentration"
+      }, {
+        "title" : "Gentle Repetition",
+        "label" : "Repeating a sound or sequence of words to clear the mind and go beyond thought.",
+        "uri" : "insight://discoverlibraries/interest_groups/5100003?app_title=Gentle+Repetition"
+      }, {
+        "title" : "Mindfulness",
+        "label" : "Simply noticing feelings and thoughts as they come and go.",
+        "uri" : "insight://discoverlibraries/interest_groups/5100001?app_title=Mindfulness"
+      }, {
+        "title" : "Movement",
+        "label" : "Energize the body and mind through calm purposeful breathing or movement.",
+        "uri" : "insight://discoverlibraries/interest_groups/5100004?app_title=Movement"
+      }, {
+        "title" : "Self-Observation",
+        "label" : "Focusing on yourself and how it feels to just ‘be’ without paying attention to anything in particular.",
+        "uri" : "insight://discoverlibraries/interest_groups/5100007?app_title=Self-Observation"
+      }, {
+        "title" : "Sound",
+        "label" : "Using sound currents and frequencies to calm brainwaves and alter our mindset.",
+        "uri" : "insight://discoverlibraries/interest_groups/5100005?app_title=Sound"
+      }, {
+        "title" : "Visualization",
+        "label" : "Imagining a specific experience or cultivating feelings such as gratitude and forgiveness.",
+        "uri" : "insight://discoverlibraries/interest_groups/5100002?app_title=Visualization"
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_DOUBLE_CAROUSEL",
+    "content" : {
+      "title" : "Music",
+      "description" : "Sound is a soothing way to relax the mind and body. Close your eyes and drift away.",
+      "content_type" : "INTEREST_GROUP",
+      "see_all_uri" : "insight://discoverlibraries/interest_groups/?app_title=Unknown",
+      "items" : [ {
+        "title" : "Ambient Music",
+        "uri" : "insight://discoverlibraries/interest_groups/13010?app_title=Ambient+Music",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/ambientmusic-medium-v1.jpg"
+      }, {
+        "title" : "Binaural Beats ",
+        "uri" : "insight://discoverlibraries/interest_groups/13012?app_title=Binaural+Beats+",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/binauralbeats-medium-v1.jpg"
+      }, {
+        "title" : "Chanting & Mantras",
+        "uri" : "insight://discoverlibraries/interest_groups/13003?app_title=Chanting+%26+Mantras",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/chantingmantras-medium-v1.jpg"
+      }, {
+        "title" : "Classical Music",
+        "uri" : "insight://discoverlibraries/interest_groups/13001?app_title=Classical+Music",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/classicalmusic-medium-v1.jpg"
+      }, {
+        "title" : "Drumming",
+        "uri" : "insight://discoverlibraries/interest_groups/13007?app_title=Drumming",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/drumming-medium-v1.jpg"
+      }, {
+        "title" : "Gospel & Choir",
+        "uri" : "insight://discoverlibraries/interest_groups/13005?app_title=Gospel+%26+Choir",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/gospelchoir-medium-v1.jpg"
+      }, {
+        "title" : "Harmonics",
+        "uri" : "insight://discoverlibraries/interest_groups/13013?app_title=Harmonics",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/harmonics-medium-v1.jpg"
+      }, {
+        "title" : "Instrumental Music",
+        "uri" : "insight://discoverlibraries/interest_groups/13009?app_title=Instrumental+Music",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/instrumentalmusic-medium-v1.jpg"
+      }, {
+        "title" : "Nature Sounds",
+        "uri" : "insight://discoverlibraries/interest_groups/13008?app_title=Nature+Sounds",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/naturesounds-medium-v1.jpg"
+      }, {
+        "title" : "Rhythmic Music",
+        "uri" : "insight://discoverlibraries/interest_groups/13011?app_title=Rhythmic+Music",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/rhythmicmusic-medium-v1.jpg"
+      }, {
+        "title" : "Sacred Music",
+        "uri" : "insight://discoverlibraries/interest_groups/13002?app_title=Sacred+Music",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/sacredmusic-medium-v1.jpg"
+      }, {
+        "title" : "Solfeggio Frequencies",
+        "uri" : "insight://discoverlibraries/interest_groups/13014?app_title=Solfeggio+Frequencies",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/solfeggiofrequencies-medium-v1.jpg"
+      }, {
+        "title" : "Sound Healing",
+        "uri" : "insight://discoverlibraries/interest_groups/13006?app_title=Sound+Healing",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/soundhealing-medium-v1.jpg"
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_ITEMS_LIST",
+    "content" : {
+      "title" : "Origins",
+      "description" : "From the religious and spiritual to the secular and scientific, we are united by our diversity.",
+      "content_type" : "LABEL_WITH_COUNTER",
+      "items" : [ {
+        "title" : "Scientific",
+        "uri" : "insight://discoverlibraries/interest_groups/Scientific?app_title=Scientific",
+        "count" : 5432
+      }, {
+        "title" : "Traditional",
+        "uri" : "insight://discoverlibraries/interest_groups/Traditional?app_title=Traditional",
+        "count" : 786
+      }, {
+        "title" : "Conceptual",
+        "uri" : "insight://discoverlibraries/interest_groups/Conceptual?app_title=Conceptual",
+        "count" : 156
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_DOUBLE_CAROUSEL",
+    "content" : {
+      "content_type" : "INTEREST_GROUP",
+      "items" : [ {
+        "title" : "Concepts",
+        "uri" : "insight://discoverlibraries/interest_groups/15503?app_title=Concepts",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/concepts-medium-v1.jpg"
+      }, {
+        "title" : "Sciences",
+        "uri" : "insight://discoverlibraries/interest_groups/15502?app_title=Sciences",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/sciences-medium-v1.jpg"
+      }, {
+        "title" : "Traditions",
+        "uri" : "insight://discoverlibraries/interest_groups/15501?app_title=Traditions",
+        "picture_url" : "https://static.insighttimer.com/library_discovery/traditions-medium-v1.jpg"
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_CAROUSEL",
+    "content" : {
+      "title" : "Teachers",
+      "description" : "Listen to hundreds of talks, interviews, and ideas covering a range of topics and concepts.",
+      "content_type" : "PUBLISHER",
+      "see_all_uri" : "UNKNOWN?app_title=Teachers",
+      "publishers" : [ {
+        "id" : "T3s7y4X8G6e5a4F1R3h5A8U1w0k6s7M7G0F7t8L7Z5m3x0y7u8N9C3m0J8k2y2C0m4s5D9U1x2h0P2d0L1z6h8f0B9b9C8T6N0m1",
+        "pref_id" : "a4a1S4H4x7h7c1v5S0S3u2z2n6s7R5u4X8D4L8E8F6G0c5k4P5t5L5A1X7Y3p4h6m1X1N8S3T1c1Z2a8w7x3p7Q2T9R2v2W5u0G9",
+        "name" : "Andrew Johnson",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/publisher_data/pictures/000/000/336/medium/pub502694_112096_0.jpeg",
+          "width" : 320,
+          "height" : 320
+        },
+        "is_publisher" : false,
+        "play_count" : 399995,
+        "cache_version" : 0
+      }, {
+        "id" : "T1q7r3F4z7V7X6V0n2h3q4p8M4S6R8Y8v0t4Z7s5c0b6M5w6R1a3e5V2L3j4N7q7A3B4w7q7Z3z8z8u3G7Q3m3p7E8K3Y2P7y3H4",
+        "pref_id" : "J8w5P6Y8V8x0Q9p1X1f2H5M7F5r9Q6G2f6y8L8E5z9c7u1L6H3u3k1t4d9d7w6w2V2s8A9R9P4F7e7g5h8q5G7X9D0X3L9X0w7B6",
+        "name" : "Susan Piver",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/publisher_data/pictures/000/001/623/medium/pub66661_69084_0.jpeg",
+          "width" : 320,
+          "height" : 320
+        },
+        "is_publisher" : false,
+        "play_count" : 2864,
+        "cache_version" : 0
+      }, {
+        "id" : "e2q7U2J9H3r7R9a8h8w0C0C0C6r2y4C5v1G6G9u8R3E9L8J5c6z0N4n4L4h1D8h9Y0V0e0q5T7Y6m6g5S9j5A6z7E5d0f3U2G1U5",
+        "pref_id" : "h3K6w7z6n3q5s0Y3h6L1D1b8d4E1Y6m6z3G1v3U5N7f2m5D1X7K4h9H5s6F1s4Z5V9q6v3f8r5u1N1D7j6g7D4U3H8y4x7Y0U4n4",
+        "name" : "Anouk Brack",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/publisher_data/pictures/000/000/020/medium/Anouk.jpg",
+          "width" : 320,
+          "height" : 320
+        },
+        "is_publisher" : false,
+        "play_count" : 8500,
+        "cache_version" : 0
+      }, {
+        "id" : "H0T6n1s0H6H2r1m5y3H8S8q2U4C5g0Y8e8M2M3u6A2x0H1X3J6f3D7K8P6V8X4E9g1R3Z1r6m4a7s4z5d2B9M9b1c7h0G9m9a5n9",
+        "pref_id" : "G2v8w8X2F4N9m3U5A4s9c7M5E0h7h8n8v7c5t3E6c5P3c3H1p2V7m1z6c1v2z1X7J8T4f6Z3X3x0K8u4b9E9G3c3d6p4s5E6D4F2",
+        "name" : "Jim Rajan",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/publisher_data/pictures/000/000/936/medium/56.jpg",
+          "width" : 320,
+          "height" : 320
+        },
+        "is_publisher" : false,
+        "play_count" : 29115,
+        "cache_version" : 0
+      } ]
+    }
+  }, {
+    "type" : "UI_ELEM_CAROUSEL",
+    "content" : {
+      "title" : "Talks",
+      "description" : "Listen to hundreds of talks, interviews, and ideas covering a range of topics and concepts.",
+      "content_type" : "LIBRARY_ITEM",
+      "see_all_uri" : "insight://discoverlibraries/see_all/Talks?app_title=Talks",
+      "library_items" : [ {
+        "id" : "e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7",
+        "type" : "AUDIO",
+        "title" : "Memory Break",
+        "public_url" : "https://insighttimer.com/andrewjohnson/guided-meditations/memory-break",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/540/small/CoffeeBreak.jpg",
+          "width" : 100,
+          "height" : 100
+        },
+        "picture_medium" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/540/medium/CoffeeBreak.jpg",
+          "width" : 320,
+          "height" : 320
+        },
+        "audio_item_info" : {
+          "id" : "e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7",
+          "play" : {
+            "type" : "audio/mpeg",
+            "length" : 112,
+            "path" : "http://staticmp3.insighttimer.com/e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7.mpeg",
+            "path2" : "https://static.insighttimer.com/m1/e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7.mpeg",
+            "path3" : "https://static2.insighttimer.com/m1/e1s0z1m9f2h0k5b5a6c6f9l3u2a3d4r6g3s6n8q7.mpeg"
+          },
+          "play_count" : 6487,
+          "level" : "Everyone",
+          "contains" : "Words, Music",
+          "content" : "Guided or teacher led practice (may contain background music)",
+          "spiritual" : "Secular",
+          "release_date" : "2005"
+        },
+        "publisher" : {
+          "id" : "T3s7y4X8G6e5a4F1R3h5A8U1w0k6s7M7G0F7t8L7Z5m3x0y7u8N9C3m0J8k2y2C0m4s5D9U1x2h0P2d0L1z6h8f0B9b9C8T6N0m1",
+          "pref_id" : "a4a1S4H4x7h7c1v5S0S3u2z2n6s7R5u4X8D4L8E8F6G0c5k4P5t5L5A1X7Y3p4h6m1X1N8S3T1c1Z2a8w7x3p7Q2T9R2v2W5u0G9",
+          "name" : "Andrew Johnson",
+          "picture" : {
+            "type" : "image/jpeg",
+            "path" : "https://static.insighttimer.com/publisher_data/pictures/000/000/336/medium/pub502694_112096_0.jpeg",
+            "width" : 320,
+            "height" : 320
+          },
+          "is_publisher" : false,
+          "play_count" : 399995,
+          "cache_version" : 0
+        },
+        "cache_version" : 5
+      }, {
+        "id" : "q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0",
+        "type" : "AUDIO",
+        "title" : "Short Breath Awareness Meditation",
+        "public_url" : "https://insighttimer.com/susanpiver/guided-meditations/short-breath-awareness-meditation",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/9846/small/spb-current-pink.jpeg",
+          "width" : 100,
+          "height" : 100
+        },
+        "picture_medium" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/9846/medium/spb-current-pink.jpeg",
+          "width" : 320,
+          "height" : 320
+        },
+        "audio_item_info" : {
+          "id" : "q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0",
+          "play" : {
+            "type" : "audio/mp3",
+            "length" : 668,
+            "path" : "http://staticmp3.insighttimer.com/q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0.mp3",
+            "path2" : "https://static.insighttimer.com/m1/q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0.mp3",
+            "path3" : "https://static2.insighttimer.com/m1/q2p8p3c4t9h0g6m8e7v4z5p3g9y6h8w0b9j4f3m0.mp3"
+          },
+          "play_count" : 2880,
+          "level" : "Everyone",
+          "contains" : "Ending bell (or similar sound)",
+          "content" : "Guided or teacher led practice (may contain background music)",
+          "spiritual" : "Secular"
+        },
+        "publisher" : {
+          "id" : "T1q7r3F4z7V7X6V0n2h3q4p8M4S6R8Y8v0t4Z7s5c0b6M5w6R1a3e5V2L3j4N7q7A3B4w7q7Z3z8z8u3G7Q3m3p7E8K3Y2P7y3H4",
+          "pref_id" : "J8w5P6Y8V8x0Q9p1X1f2H5M7F5r9Q6G2f6y8L8E5z9c7u1L6H3u3k1t4d9d7w6w2V2s8A9R9P4F7e7g5h8q5G7X9D0X3L9X0w7B6",
+          "name" : "Susan Piver",
+          "picture" : {
+            "type" : "image/jpeg",
+            "path" : "https://static.insighttimer.com/publisher_data/pictures/000/001/623/medium/pub66661_69084_0.jpeg",
+            "width" : 320,
+            "height" : 320
+          },
+          "is_publisher" : false,
+          "play_count" : 2864,
+          "cache_version" : 0
+        },
+        "cache_version" : 5
+      }, {
+        "id" : "k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3",
+        "type" : "AUDIO",
+        "title" : "Short Centering Practice: Turbocentering",
+        "public_url" : "https://insighttimer.com/anoukbrack/guided-meditations/centering-turbocentering-30-sec",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/3536/small/Anouk_2016-square.jpg",
+          "width" : 100,
+          "height" : 100
+        },
+        "picture_medium" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/3536/medium/Anouk_2016-square.jpg",
+          "width" : 320,
+          "height" : 320
+        },
+        "audio_item_info" : {
+          "id" : "k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3",
+          "play" : {
+            "type" : "audio/mpeg",
+            "length" : 40,
+            "path" : "http://staticmp3.insighttimer.com/k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3.mpeg",
+            "path2" : "https://static.insighttimer.com/m1/k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3.mpeg",
+            "path3" : "https://static2.insighttimer.com/m1/k6z8k4e9f2u4x8p0j0j3j4u6t8s6g3b1n2r7c8n3.mpeg"
+          },
+          "play_count" : 5601
+        },
+        "publisher" : {
+          "id" : "e2q7U2J9H3r7R9a8h8w0C0C0C6r2y4C5v1G6G9u8R3E9L8J5c6z0N4n4L4h1D8h9Y0V0e0q5T7Y6m6g5S9j5A6z7E5d0f3U2G1U5",
+          "pref_id" : "h3K6w7z6n3q5s0Y3h6L1D1b8d4E1Y6m6z3G1v3U5N7f2m5D1X7K4h9H5s6F1s4Z5V9q6v3f8r5u1N1D7j6g7D4U3H8y4x7Y0U4n4",
+          "name" : "Anouk Brack",
+          "picture" : {
+            "type" : "image/jpeg",
+            "path" : "https://static.insighttimer.com/publisher_data/pictures/000/000/020/medium/Anouk.jpg",
+            "width" : 320,
+            "height" : 320
+          },
+          "is_publisher" : false,
+          "play_count" : 8500,
+          "cache_version" : 0
+        },
+        "cache_version" : 5
+      }, {
+        "id" : "e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8",
+        "type" : "AUDIO",
+        "title" : "Nrty Hiran (Dancing Deer)",
+        "public_url" : "https://insighttimer.com/jimrajan/guided-meditations/nrty-hiran-dancing-deer",
+        "picture" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/7682/small/Nrty_Hiran_â€œ_7_.jpg",
+          "width" : 100,
+          "height" : 100
+        },
+        "picture_medium" : {
+          "type" : "image/jpeg",
+          "path" : "https://static.insighttimer.com/media_data/pictures/7682/medium/Nrty_Hiran_â€œ_7_.jpg",
+          "width" : 320,
+          "height" : 320
+        },
+        "audio_item_info" : {
+          "id" : "e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8",
+          "play" : {
+            "type" : "audio/mp3",
+            "length" : 1546,
+            "path" : "http://staticmp3.insighttimer.com/e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8.mp3",
+            "path2" : "https://static.insighttimer.com/m1/e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8.mp3",
+            "path3" : "https://static2.insighttimer.com/m1/e6c4m9c8l8u6j4r4r0k8n2k1m9m6v9e6j0p1t4y8.mp3"
+          },
+          "play_count" : 9130,
+          "level" : "Everyone",
+          "content" : "Music track only (including chanting and mantras)",
+          "spiritual" : "Secular",
+          "release_date" : "2017"
+        },
+        "publisher" : {
+          "id" : "H0T6n1s0H6H2r1m5y3H8S8q2U4C5g0Y8e8M2M3u6A2x0H1X3J6f3D7K8P6V8X4E9g1R3Z1r6m4a7s4z5d2B9M9b1c7h0G9m9a5n9",
+          "pref_id" : "G2v8w8X2F4N9m3U5A4s9c7M5E0h7h8n8v7c5t3E6c5P3c3H1p2V7m1z6c1v2z1X7J8T4f6Z3X3x0K8u4b9E9G3c3d6p4s5E6D4F2",
+          "name" : "Jim Rajan",
+          "picture" : {
+            "type" : "image/jpeg",
+            "path" : "https://static.insighttimer.com/publisher_data/pictures/000/000/936/medium/56.jpg",
+            "width" : 320,
+            "height" : 320
+          },
+          "is_publisher" : false,
+          "play_count" : 29115,
+          "cache_version" : 0
+        },
+        "cache_version" : 5
+      } ]
+    }
+  } ],
+  "cache_version" : 0
+}

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?><testsuite time="3.740" name="Insight Timer v1 Activity API.App Home Page APIs" tests="8" failures="0" skipped="0" errors="0">
+  <testcase classname="Insight Timer v1 Activity API.App Home Page APIs" name="Get locations for Live Map" time="1.146"/>
+  <testcase classname="Insight Timer v1 Activity API.App Home Page APIs" name="Get friends activities on Home" time="0.225"/>
+  <testcase classname="Insight Timer v1 Activity API.App Home Page APIs" name="Get nearby activities on Home" time="0.866"/>
+  <testcase classname="Insight Timer v1 Activity API.App Home Page APIs" name="Get my groups on Home" time="0.262"/>
+  <testcase classname="Insight Timer v1 Activity API.App Home Page APIs" name="Get community activities" time="0.488"/>
+  <testcase classname="Insight Timer v1 Activity API.App Home Page APIs" name="Get activities by group id on Home" time="0.351"/>
+  <testcase classname="Insight Timer v1 Activity API.App Home Page APIs" name="Get current meditators" time="0.191"/>
+  <testcase classname="Insight Timer v1 Activity API.App Home Page APIs" name="Get Meditations Today" time="0.211"/>
+</testsuite>

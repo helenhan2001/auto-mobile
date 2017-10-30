@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<suite name="IOS automation test" verbose="1">
+	<test name="Smoke suite 1">
+
+
+
+		<!-- Add Groups in XML file -->
+	<!-- 	<groups>
+			<run>
+				<include name="Smoke" />
+				<exclude name="regression" />
+			</run>
+<<<<<<< HEAD
+		</groups> -->
+
+		<classes>
+
+			<class name="Tests.TestAll" />
+		<!-- 	<class name="Tests.TestMyLibraryPage" />
+
+		   	<class name="Tests.TestSecondLanguage" />  
+		   		<class name="Tests.TestTimerPage" />   -->
+			 
+=======
+		</groups>
+ -->
+		<classes>
+
+			<class name="Tests.TestAll" />
+		
+>>>>>>> 05199e8d80172a54082c974be9d55a33d4bf68ab
+		</classes>
+
+
+		<!-- <packages> <package name ="Tests"/> </packages> <class name="Tests.TestClickCondition"/> 
+			<class name="Tests.TestGuestModePage"/> <class name="Tests.TestHomeScreen"/> 
+			<class name="Tests.TestGuestModeLibrary"/> <class name="Tests.TestMyLibraryPage"/> 
+			<class name="Tests.TestLibrarySearchFilterSortPage"/> <class name="Tests.TestDiscoveryInterestGroups"/> -->
+	</test>
+</suite>

@@ -1,0 +1,36 @@
+{
+  "tips": [
+    {
+      "code": 0,
+      "title": "${GUIDEDS_COUNT} Free Meditations",
+      "text": "Every day more than ${TEACHERS_COUNT} of the world’s best meditation teachers upload new guided meditations, music tracks, talks  and podcasts.\n\nExperiment with different approaches to find a teacher and style that suits you.",
+      "offline_title": "Guided meditations",
+      "offline_text": "Discover thousands of free guided meditations, music, talks and podcasts from over a thousand meditation teachers.\n\nExperiment with different approaches to find a teacher and style that suits you.",
+      "image_name": "tip-guided",
+      "dark_theme": false
+    },
+    {
+      "code": 1,
+      "title": "${GROUPS_COUNT} Discussion Groups",
+      "text": "Discover over ${GROUPS_COUNT} discussion groups and local meet-ups ranging from humour and compassion to spirituality and mindfulness. There’s even a wonderful Rumi poetry group!",
+      "offline_title": "Discussion Groups",
+      "offline_text": "Discover thousands of groups and local meet-ups ranging from humour and compassion to spirituality and mindfulness. There’s even a wonderful Rumi poetry group!",
+      "image_name": "tip-groups",
+      "dark_theme": false
+    },
+    {
+      "code": 2,
+      "title": "Profile + Privacy",
+      "text": "Track your progress, earn milestones, and send messages of support to friends.\n\nTo configure your Privacy Settings click the icon top right.",
+      "image_name": "tip-privacy",
+      "dark_theme": false
+    },
+    {
+      "code": 3,
+      "title": "The Timer",
+      "text": "Hundreds of features for a deeply personal meditation experience.\n\nCreate your own presets, configure interval bells, and choose different ambient sounds. Then just sit back, relax, and meditate!",
+      "image_name": "tip-timer",
+      "dark_theme": true
+    }
+  ]
+}

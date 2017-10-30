@@ -1,0 +1,424 @@
+{
+  "languages":
+  [
+   {
+   "iso_639_1": "ar",
+   "iso_639_2": "ara",
+   "name": "العربية",
+   "english_name": "Arabic",
+   "flag_circle": "arabic-circle.png",
+   "flag_square": "arabic-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "br",
+   "iso_639_2": "pt-br",
+   "name": "Português do Brasil",
+   "english_name": "Brazilian Portuguese",
+   "flag_circle": "brazilian-portuguese-circle.png",
+   "flag_square": "brazilian-portuguese-square.png",
+   "supports_guided_meditations": false,
+   "relevance_index": 10000
+   },
+   {
+   "iso_639_1": "bg",
+   "iso_639_2": "bul",
+   "name": "Български",
+   "english_name": "Bulgarian",
+   "flag_circle": "bulgaria-circle.png",
+   "flag_square": "bulgaria-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "ct",
+   "iso_639_2": "ct",
+   "name": "廣東話",
+   "english_name": "Cantonese",
+   "flag_circle": "cantonese-circle.png",
+   "flag_square": "cantonese-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "ca",
+   "iso_639_2": "cat",
+   "name": "Català",
+   "english_name": "Catalan",
+   "flag_circle": "catalan-circle.png",
+   "flag_square": "catalan-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "cs",
+   "iso_639_2": "ces",
+   "name": "Čeština",
+   "english_name": "Czech",
+   "flag_circle": "czech-circle.png",
+   "flag_square": "czech-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "da",
+   "iso_639_2": "dan",
+   "name": "Dansk",
+   "english_name": "Danish",
+   "flag_circle": "danish-circle.png",
+   "flag_square": "danish-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "nl",
+   "iso_639_2": "nld",
+   "name": "Nederlands",
+   "english_name": "Dutch",
+   "flag_circle": "dutch-circle.png",
+   "flag_square": "dutch-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },        {
+   "iso_639_1": "en",
+   "iso_639_2": "eng",
+   "name": "English",
+   "english_name": "English",
+   "flag_circle": "english-circle.png",
+   "flag_square": "english-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 0
+   },
+   {
+   "iso_639_1": "et",
+   "iso_639_2": "est",
+   "name": "Eesti",
+   "english_name": "Estonian",
+   "flag_circle": "estonia-circle.png",
+   "flag_square": "estonia-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "fi",
+   "iso_639_2": "fin",
+   "name": "Suomi",
+   "english_name": "Finnish",
+   "flag_circle": "finnish-circle.png",
+   "flag_square": "finnish-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "fr",
+   "iso_639_2": "fra",
+   "name": "Français",
+   "english_name": "French",
+   "flag_circle": "french-circle.png",
+   "flag_square": "french-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 10
+   },
+   {
+   "iso_639_1": "de",
+   "iso_639_2": "deu",
+   "name": "Deutsch",
+   "english_name": "German",
+   "flag_circle": "german-circle.png",
+   "flag_square": "german-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 20
+   },
+   {
+   "iso_639_1": "el",
+   "iso_639_2": "ell",
+   "name": "Ελληνικά",
+   "english_name": "Greek",
+   "flag_circle": "greek-circle.png",
+   "flag_square": "greek-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "he",
+   "iso_639_2": "heb",
+   "name": "עברית",
+   "english_name": "Hebrew",
+   "flag_circle": "hebrew-circle.png",
+   "flag_square": "hebrew-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "hi",
+   "iso_639_2": "hin",
+   "name": "हिन्दी",
+   "english_name": "Hindi",
+   "flag_circle": "hindi-circle.png",
+   "flag_square": "hindi-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "hu",
+   "iso_639_2": "hun",
+   "name": "Magyar",
+   "english_name": "Hungarian",
+   "flag_circle": "hungarian-circle.png",
+   "flag_square": "hungarian-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "is",
+   "iso_639_2": "isl",
+   "name": "Íslenska",
+   "english_name": "Icelandic",
+   "flag_circle": "iceland-circle.png",
+   "flag_square": "iceland-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "id",
+   "iso_639_2": "ind",
+   "name": "Indonesian",
+   "english_name": "Indonesian",
+   "flag_circle": "indonesian-circle.png",
+   "flag_square": "indonesian-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "fa",
+   "iso_639_2": "fas",
+   "name": "Fārsi",
+   "english_name": "Persian",
+   "flag_circle": "iran-circle.png",
+   "flag_square": "iran-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "it",
+   "iso_639_2": "ita",
+   "name": "Italiano",
+   "english_name": "Italian",
+   "flag_circle": "italian-circle.png",
+   "flag_square": "italian-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 30
+   },
+   {
+   "iso_639_1": "ja",
+   "iso_639_2": "jpn",
+   "name": "日本語",
+   "english_name": "Japanese",
+   "flag_circle": "japanese-circle.png",
+   "flag_square": "japanese-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "kn",
+   "iso_639_2": "kan",
+   "name": "ಕನ್ನಡ",
+   "english_name": "Kannada",
+   "flag_circle": "kannada-circle.png",
+   "flag_square": "kannada-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "ko",
+   "iso_639_2": "kor",
+   "name": "한국어",
+   "english_name": "Korean",
+   "flag_circle": "korean-circle.png",
+   "flag_square": "korean-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "lt",
+   "iso_639_2": "lit",
+   "name": "Lietuvių",
+   "english_name": "Lithuanian",
+   "flag_circle": "lithuania-circle.png",
+   "flag_square": "lithuania-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "lv",
+   "iso_639_2": "lav",
+   "name": "Latviešu",
+   "english_name": "Latvian",
+   "flag_circle": "latvia-circle.png",
+   "flag_square": "latvia-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "ms",
+   "iso_639_2": "msa",
+   "name": "Melayu",
+   "english_name": "Malay",
+   "flag_circle": "malay-circle.png",
+   "flag_square": "malay-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "zh",
+   "iso_639_2": "zho",
+   "name": "中文",
+   "english_name": "Mandarin",
+   "flag_circle": "mandarin-circle.png",
+   "flag_square": "mandarin-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "m1",
+   "iso_639_2": "m1",
+   "name": "Music",
+   "english_name": "Music",
+   "flag_circle": "music-circle.png",
+   "flag_square": "music-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "no",
+   "iso_639_2": "nor",
+   "name": "Norsk",
+   "english_name": "Norwegian",
+   "flag_circle": "norwegian-circle.png",
+   "flag_square": "norwegian-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "pl",
+   "iso_639_2": "pol",
+   "name": "Polski",
+   "english_name": "Polish",
+   "flag_circle": "polish-circle.png",
+   "flag_square": "polish-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "pt",
+   "iso_639_2": "por",
+   "name": "Português",
+   "english_name": "Portuguese",
+   "flag_circle": "portuguese-circle.png",
+   "flag_square": "portuguese-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "ro",
+   "iso_639_2": "ron",
+   "name": "Română",
+   "english_name": "Romanian",
+   "flag_circle": "romanian-circle.png",
+   "flag_square": "romanian-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "ru",
+   "iso_639_2": "rus",
+   "name": "Русский",
+   "english_name": "Russian",
+   "flag_circle": "russian-circle.png",
+   "flag_square": "russian-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 40
+   },
+   {
+   "iso_639_1": "sa",
+   "iso_639_2": "san",
+   "name": "संस्कृतम्",
+   "english_name": "Sanskrit",
+   "flag_circle": "sanskrit-circle.png",
+   "flag_square": "sanskrit-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "es",
+   "iso_639_2": "spa",
+   "name": "Español",
+   "english_name": "Spanish",
+   "flag_circle": "spanish-circle.png",
+   "flag_square": "spanish-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 50
+   },
+   {
+   "iso_639_1": "sv",
+   "iso_639_2": "swe",
+   "name": "Svenska",
+   "english_name": "Swedish",
+   "flag_circle": "swedish-circle.png",
+   "flag_square": "swedish-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 60
+   },
+   {
+   "iso_639_1": "th",
+   "iso_639_2": "tha",
+   "name": "ภาษาไทย",
+   "english_name": "Thai",
+   "flag_circle": "thai-circle.png",
+   "flag_square": "thai-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 70
+   },
+   {
+   "iso_639_1": "tr",
+   "iso_639_2": "tur",
+   "name": "Türkçe",
+   "english_name": "Turkish",
+   "flag_circle": "turkish-circle.png",
+   "flag_square": "turkish-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "ur",
+   "iso_639_2": "urd",
+   "name": "اُردُو",
+   "english_name": "Urdu",
+   "flag_circle": "urdu-circle.png",
+   "flag_square": "urdu-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 1000
+   },
+   {
+   "iso_639_1": "vi",
+   "iso_639_2": "vie",
+   "name": "Việt",
+   "english_name": "Vietnamese",
+   "flag_circle": "vietnam-circle.png",
+   "flag_square": "vietnam-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   },
+   {
+   "iso_639_1": "zht",
+   "iso_639_2": "zht",
+   "name": "臺灣閩南語",
+   "english_name": "Taiwanese",
+   "flag_circle": "taiwanese-circle.png",
+   "flag_square": "taiwanese-square.png",
+   "supports_guided_meditations": true,
+   "relevance_index": 100
+   }
+   ]
+}

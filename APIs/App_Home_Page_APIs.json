@@ -1,0 +1,512 @@
+{
+  "front-version": "2.5.2",
+  "version": 3,
+  "nodes": [
+    {
+      "type": "Project",
+      "id": "D10C5803-27E4-4951-9C93-5F18A137DC7F",
+      "lastModified": "2017-07-11T16:14:09.678+10:00",
+      "name": "Insight Timer v1 Activity API",
+      "remoteModification": "2017-07-11T06:14:09.567Z"
+    },
+    {
+      "type": "Scenario",
+      "description": "",
+      "id": "9E228826-66AD-42FA-AA32-4F6F6059ACAE",
+      "lastModified": "2017-07-11T15:52:17.932+10:00",
+      "name": "App Home Page APIs",
+      "requestOrder": [
+        "Get locations for Live Map",
+        "Get friends activities on Home",
+        "Get nearby activities on Home",
+        "Get my groups on Home",
+        "Get community activities",
+        "Get activities by group id on Home",
+        "Get current meditators",
+        "Get Meditations Today"
+      ],
+      "parentId": "D10C5803-27E4-4951-9C93-5F18A137DC7F"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": [
+            {
+              "enabled": true,
+              "name": "offset",
+              "value": "0"
+            },
+            {
+              "enabled": true,
+              "name": "limit",
+              "value": "20"
+            }
+          ]
+        },
+        "host": "{\"Endpoint\"}",
+        "path": "/api/v1/activities"
+      },
+      "id": "04F56AD6-1CF5-4C45-9FA7-2A67644CCCBA",
+      "lastModified": "2017-07-11T15:58:49.311+10:00",
+      "name": "Get community activities",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "in-uref",
+          "value": "{\"UserId\"}"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "DoesNotEqual",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].id",
+          "value": "null"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].is_private",
+          "value": "false"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|58ca10f09bd790077ec86d73"
+      },
+      "parentId": "9E228826-66AD-42FA-AA32-4F6F6059ACAE"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true
+      },
+      "headersType": "Form",
+      "uri": {
+        "host": "{\"Endpoint\"}",
+        "path": "/api/v1/activities/groups/{\"GroupId\"}/views/home"
+      },
+      "id": "8E4E5090-8E7A-4389-B34A-DAD7BC25E2E9",
+      "lastModified": "2017-07-11T16:14:09.422+10:00",
+      "name": "Get activities by group id on Home",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "in-uref",
+          "value": "{\"UserId\"}"
+        },
+        {
+          "enabled": true,
+          "name": "${\"Insight Timer v1 Activity API \".\"App Home Page APIs\".\"Get my groups on Home\".\"response\".\"body\".jsonPath(\"$[0].id\")}",
+          "value": "${\"Insight Timer v1 Activity API \".\"App Home Page APIs\".\"Get my groups on Home\".\"response\".\"body\".jsonPath(\"$[0].id\")}"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|58ca10f09bd790077ec86d73"
+      },
+      "parentId": "9E228826-66AD-42FA-AA32-4F6F6059ACAE"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true
+      },
+      "headersType": "Raw",
+      "uri": {
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "{\"Endpoint\"}",
+        "path": "/api/v1/activities/locations"
+      },
+      "description": "",
+      "id": "923B4C4C-3C0E-4A8E-937D-A30914AD49B0",
+      "lastModified": "2017-07-11T15:33:29.066+10:00",
+      "name": "Get locations for Live Map",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "in-uref",
+          "value": "{\"UserId\"}"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "Greater",
+          "subject": "ResponseBody",
+          "path": "length",
+          "value": "200"
+        },
+        {
+          "comparison": "DoesNotEqual",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].lat",
+          "value": "0"
+        },
+        {
+          "comparison": "DoesNotEqual",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].lon",
+          "value": "0"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].cache_version",
+          "value": "0"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|58ca10f09bd790077ec86d73"
+      },
+      "parentId": "9E228826-66AD-42FA-AA32-4F6F6059ACAE"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true
+      },
+      "headersType": "Form",
+      "uri": {
+        "host": "{\"Endpoint\"}",
+        "path": "/api/v1/activities/nearby/views/home"
+      },
+      "id": "A439D4E3-2810-40D6-99CA-0E5ECF28925D",
+      "lastModified": "2017-07-11T16:10:09.448+10:00",
+      "name": "Get nearby activities on Home",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "X-Ins-User-ID",
+          "value": "{\"UserId\"}"
+        },
+        {
+          "enabled": true,
+          "name": "in-uref",
+          "value": "{\"UserId\"}"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "DoesNotEqual",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].id",
+          "value": "['0']"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].is_private",
+          "value": "false"
+        },
+        {
+          "comparison": "DoesNotEqual",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].user_id",
+          "value": "null"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|58ca10f09bd790077ec86d73"
+      },
+      "parentId": "9E228826-66AD-42FA-AA32-4F6F6059ACAE"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true
+      },
+      "headersType": "Form",
+      "uri": {
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "{\"Endpoint\"}",
+        "path": "/api/v1/activities/meditators"
+      },
+      "id": "A6305136-99CF-4FE9-968F-A75000516207",
+      "lastModified": "2017-07-11T11:04:25.487+10:00",
+      "name": "Get current meditators",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "in-uref",
+          "value": "{\"UserId\"}"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "204"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|58ca10f09bd790077ec86d73"
+      },
+      "parentId": "9E228826-66AD-42FA-AA32-4F6F6059ACAE"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "{\"Endpoint\"}",
+        "path": "/api/v1/activities/meditated_today/GMT+10"
+      },
+      "id": "A7F3B4B6-5938-44B6-AA45-EB61E2D2CE93",
+      "lastModified": "2017-07-11T11:04:25.487+10:00",
+      "name": "Get Meditations Today",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "in-uref",
+          "value": "{\"UserId\"}"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|58ca10f09bd790077ec86d73"
+      },
+      "parentId": "9E228826-66AD-42FA-AA32-4F6F6059ACAE"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true
+      },
+      "headersType": "Form",
+      "uri": {
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "{\"Endpoint\"}",
+        "path": "/api/v1/users/me/groups/views/home"
+      },
+      "id": "B2E0F504-4A73-458C-9D81-6FBD38716869",
+      "lastModified": "2017-07-11T15:55:29.295+10:00",
+      "name": "Get my groups on Home",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "in-uref",
+          "value": "{\"UserId\"}"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].name",
+          "value": "{'Thich Nhat Hanh'}"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$[1].name",
+          "value": "{\"Insight Community\"}"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$[2].name",
+          "value": "{\"Beginner's Mind\"}"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$[3].name",
+          "value": "{\"Women Meditate Worldwide\"}"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|58ca10f09bd790077ec86d73"
+      },
+      "parentId": "9E228826-66AD-42FA-AA32-4F6F6059ACAE"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": [
+            {
+              "enabled": true,
+              "name": "limit",
+              "value": "5"
+            }
+          ]
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "{\"Endpoint\"}",
+        "path": "/api/v1/activities/friends/views/home"
+      },
+      "description": "",
+      "id": "FC162625-22DD-4E94-9B25-632331937787",
+      "lastModified": "2017-07-11T15:36:09.110+10:00",
+      "name": "Get friends activities on Home",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "in-uref",
+          "value": "{\"UserId\"}"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "DoesNotEqual",
+          "subject": "ResponseJsonBody",
+          "path": "$[0].id",
+          "value": "['0']"
+        },
+        {
+          "comparison": "DoesNotEqual",
+          "subject": "ResponseJsonBody",
+          "path": "$[1].id",
+          "value": "['0']"
+        },
+        {
+          "comparison": "DoesNotEqual",
+          "subject": "ResponseJsonBody",
+          "path": "$[2].id",
+          "value": "['0']"
+        },
+        {
+          "comparison": "DoesNotEqual",
+          "subject": "ResponseJsonBody",
+          "path": "$[3].id",
+          "value": "['0']"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "auth0|58ca10f09bd790077ec86d73"
+      },
+      "parentId": "9E228826-66AD-42FA-AA32-4F6F6059ACAE"
+    },
+    {
+      "type": "Context",
+      "id": "238DAC1B-FEDB-49D6-A27F-F8BE4666A555",
+      "lastModified": "2017-07-07T15:46:33.037+10:00",
+      "name": "prod",
+      "variables": [
+        {
+          "enabled": true,
+          "name": "Endpoint",
+          "value": "https://api.insighttimer.com"
+        },
+        {
+          "enabled": true,
+          "name": "UserId",
+          "value": "C2x3G6U7h2r6s2D1j0V0F4d1f1x6X7c3d6H8s5G9M4r2c6y0W9X1R4W8W1u9j3d9X7u2H8v6V1Y3M9y0A3y7t6e8t4D4n4J0r1n6"
+        }
+      ]
+    }
+  ]
+}

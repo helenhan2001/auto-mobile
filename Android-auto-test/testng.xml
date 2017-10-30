@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--  <?xml version="1.0" encoding="UTF-8"?> -->
+<suite name="Android automation test" verbose="1" >
+  <test name="Regression suite 1" >
+  
+    
+    <classes>
+ 
+      
+      <class name="Tests._00_OnboardingTests"/>
+      <class name="Tests._0101_GuestModeHomeScreenTests"/>           
+       <class name="Tests. _0101_RegisteredModeHomeScreenTests"/>           
+     
+    </classes> 
+ <!--   
+   //   
+    <packages>
+     <package name ="Tests"/>
+    </packages> -->
+ </test>
+</suite>

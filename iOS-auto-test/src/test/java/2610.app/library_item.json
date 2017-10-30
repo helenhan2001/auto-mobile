@@ -1,0 +1,163 @@
+{
+  "id": "TEST123",
+  "type": "AUDIO",
+  "title": "Ste`re*op\"ti*con Pseu`do-mon`o*cot`y*led\"on*ous Haem`a*drom\"e*tryHaem`a*dro*mom\"e*try Haem`a*drom\"e*tryHaem`a*dro*mom\"e*try",
+  "public_url": "https://insighttimer.com/pub442181/guided-meditations/stere-star-op-ti-star-con-pseudo-mono-star-coty-star-led-on-star-ous-haema-star-drom-e-star-tryhaema-star-dro-star-mom-e-star-try-haema-star-drom-e-star-tryhaema-star-dro-star-mom-e-star-try",
+  "picture": {
+    "type": "image/png",
+    "path": "https://static.insighttimer.com/media_data/pictures/397/medium/442181p.png",
+    "width": 320,
+    "height": 320
+  },
+  "audio_item_info": {
+    "id": "TEST123",
+    "play": {
+      "type": "audio/mp3",
+      "length": 4740,
+      "path": "http://staticmp3.insighttimer.com/TEST123.mp3"
+    },
+    "play_count": 0,
+    "age": "Infants (0 - 5)",
+    "level": "Some experience necessary (2 - 12 months)",
+    "contains": "Ending bell (or similar sound), Nature Sounds",
+    "intended_listening": "Seated - eyes closed",
+    "content": "Religious"
+  },
+  "unhandled_tags": [
+                     {
+                     "id": 6003,
+                     "name": "Soul",
+                     "type": "BENEFIT_GROUP"
+                     },
+                     {
+                     "id": 7503,
+                     "name": "Translator",
+                     "type": "VOICE_ROLE"
+                     },
+                     {
+                     "id": 8003,
+                     "name": "No - someone else does, but they have authorised me to publish it",
+                     "type": "COPYRIGHT"
+                     },
+                     {
+                     "id": 11002,
+                     "name": "Yes - Guided meditation or formal practice",
+                     "type": "FORMAL_PRACTICE"
+                     },
+                     {
+                     "id": 17004,
+                     "name": "Poem",
+                     "type": "PODCAST_FORMAT"
+                     }
+                     ],
+  "other_tags": [],
+  "short_description": "----------------------------------------------- In`dis*cerp\"ti*ble*ness ----------------------------",
+  "long_description": "Cin`e*mat`o*graph\"ic*al*ly Haem`a*drom\"e*tryHaem`a*dro*mom\"e*try E*lec`tro-phys`i*o*log\"ic*al ---------------------------------------------- ---------------------------------------------- Pseu`do-mon`o*cot`y*led\"on*ous",
+  "lang": {
+    "name": "Italian",
+    "iso_639_1": "it"
+  },
+  "other_langs": [
+                  {
+                  "lang": {
+                  "name": "English",
+                  "iso_639_1": "en"
+                  },
+                  "id": "t2w8d7x3q8h0j5c8t1f6h5k7g3r6g6m9k8w4h0x9"
+                  },
+                  {
+                  "lang": {
+                  "name": "Mandarin",
+                  "iso_639_1": "zh"
+                  },
+                  "id": "c1a8d8y1u4q3x5b1j8r1r9h7a6b1w5g7l6e5d1x7"
+                  },
+                  {
+                  "lang": {
+                  "name": "Norwegian",
+                  "iso_639_1": "no"
+                  },
+                  "id": "e8v9u2s9z7m9v3r2a8n5b7r3p2z3x3v6a9x4h5w3"
+                  },
+                  {
+                  "lang": {
+                  "name": "Spanish",
+                  "iso_639_1": "es"
+                  },
+                  "id": "w5h0j0m6z5n2n8s1y8k2z3d4s4q4u3e1u4g5y4l0"
+                  }
+                  ],
+  "publisher": {
+    "name": "Marek",
+    "id": "a2Y8C5G1X6f5K0K0j4m9S3x4D5j2n6G5E1Q0g3x8D9d2H9t3R5L3J0j3t5U1E9R0B0H1X7r2Z8u8q9Q2d5G4p5L8a4q9L3P3f2k6",
+    "picture": {
+      "type": "image/png",
+      "path": "https://static.insighttimer.com/publisher_data/pictures/000/000/001/medium/pub442181_4370_0.png"
+    },
+    "play_count": 2917688
+  },
+  "rating": {
+    "score": 0,
+    "count": 0
+  },
+  "primary_practice": {
+    "id": 19029,
+    "name": "Loving-Kindness (Metta)",
+    "type": "PRACTICE"
+  },
+  "primary_activity": {
+    "id": 1009,
+    "name": "Dance",
+    "type": "ACTIVITY1"
+  },
+  "secondary_activity": [
+                         {
+                         "id": 1002,
+                         "name": "Yoga",
+                         "type": "ACTIVITY2"
+                         }
+                         ],
+  "primary_origin": {
+    "id": 15014,
+    "name": "Sufism",
+    "type": "ORIGIN1"
+  },
+  "secondary_origin": [
+                       {
+                       "id": 15021,
+                       "name": "Alternative medicine",
+                       "type": "ORIGIN2"
+                       }
+                       ],
+  "other_origin": [
+                   {
+                   "id": 600019,
+                   "name": "Thiá»�n Buddhism",
+                   "type": "ORIGIN_OTHER"
+                   }
+                   ],
+  "primary_benefit": {
+    "id": 4038,
+    "name": "Self-enquiry",
+    "type": "BENEFIT1"
+  },
+  "secondary_benefit": [
+                        {
+                        "id": 4039,
+                        "name": "Shared Experiences & Connection",
+                        "type": "BENEFIT2"
+                        }
+                        ],
+  "primary_genre": {
+    "id": 13011,
+    "name": "Rhythmic",
+    "type": "GENRE1"
+  },
+  "secondary_genre": [
+                      {
+                      "id": 14081,
+                      "name": "Enka",
+                      "type": "GENRE2"
+                      }
+                      ]
+}
